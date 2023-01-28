@@ -1,6 +1,6 @@
-from model_nsp_wo import *
+from neural_social_physics.model_nsp_wo import *
 from torch.autograd import Variable
-from utils import *
+from neural_social_physics.utils import *
 import torch.optim as optim
 import argparse
 import os

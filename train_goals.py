@@ -1,8 +1,8 @@
 import numpy as np
 import torch
 import yaml
-from model_goals import *
-from utils import *
+from neural_social_physics.model_goals import *
+from neural_social_physics.utils import *
 import torch.optim as optim
 from torch.autograd import Variable
 import argparse

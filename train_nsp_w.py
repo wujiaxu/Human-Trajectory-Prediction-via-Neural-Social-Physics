@@ -7,9 +7,9 @@ sys.path.append("../eth_ucy/")
 
 sys.path.append("../../utils/")
 import yaml
-from model_cvae import *
-from model_nsp_wo import *
-from utils import *
+from neural_social_physics.model_cvae import *
+from neural_social_physics.model_nsp_wo import *
+from neural_social_physics.utils import *
 import numpy as np
 import copy
 import pickle
